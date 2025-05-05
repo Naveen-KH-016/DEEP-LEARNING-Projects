@@ -1,4 +1,4 @@
-#God is Holy
+#God is Holy importing all libraries
 import os
 os.chdir('C:\\Users\\Dr Vinod\\Desktop\\WD_python')
 import pandas as pd 
@@ -13,7 +13,7 @@ df.info()
 #df= df.drop('Unnamed: 0', axis=1)
 #df.info()
 
-#PCA 
+#PCA reducing dimension
 pca3_nocs = PCA(n_components=3)
 pca3_nocs_comp = pca3_nocs.fit_transform(df)
 pca3_nocs_comp #Components
